@@ -17,7 +17,7 @@ Passos:
 Vá até o repositório remoto no GitHub (ou outra plataforma) e copie a URL do repositório.
 No seu terminal, execute o comando git clone seguido da URL do repositório remoto.
 bash
-Copy code
+Copy codes
 git clone https://github.com/usuario/repo.git
 Isso cria uma cópia local do repositório na sua máquina.
 3. Criar uma branch e alternar entre elas
