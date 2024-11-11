@@ -1,6 +1,6 @@
 O Git é um sistema de controle de versão distribuído amplamente utilizado no desenvolvimento de software. Ele permite que equipes de desenvolvedores trabalhem de forma colaborativa em projetos, mantendo um histórico completo das alterações feitas no código, o que facilita o gerenciamento de versões e a integração contínua.
 
-Aqui estão algumas notas importantes sobre o Git:
+Aqui estão algumas notas importantes sobre o Git::
 
 1. Controle de versão distribuído
 O Git é distribuído, o que significa que cada desenvolvedor tem uma cópia completa do repositório, incluindo todo o histórico de mudanças. Isso permite trabalhar offline e aplicar alterações de forma independente, sem depender de um servidor central.
