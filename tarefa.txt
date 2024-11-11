@@ -1,0 +1,126 @@
+1. Criar um novo repositório Git
+Tarefa: Inicialize um novo repositório Git em um diretório de um projeto existente.
+
+Passos:
+
+Navegue até o diretório do seu projeto.
+Execute o comando git init para criar um repositório Git.
+bash
+Copy code
+git init
+O Git agora começa a rastrear as alterações nesse diretório. Para adicionar os arquivos ao repositório, use o comando git add.
+2. Clonar um repositório remoto
+Tarefa: Faça uma cópia local de um repositório remoto (por exemplo, de um repositório no GitHub).
+
+Passos:
+
+Vá até o repositório remoto no GitHub (ou outra plataforma) e copie a URL do repositório.
+No seu terminal, execute o comando git clone seguido da URL do repositório remoto.
+bash
+Copy code
+git clone https://github.com/usuario/repo.git
+Isso cria uma cópia local do repositório na sua máquina.
+3. Criar uma branch e alternar entre elas
+Tarefa: Crie uma nova branch para trabalhar em uma nova funcionalidade e alterne entre as branches.
+
+Passos:
+
+Para criar uma nova branch, use o comando git branch <nome_da_branch>.
+bash
+Copy code
+git branch nova-funcionalidade
+Para alternar para essa nova branch, use o comando git checkout.
+bash
+Copy code
+git checkout nova-funcionalidade
+Ou, para criar e alternar para a nova branch de uma vez:
+
+bash
+Copy code
+git checkout -b nova-funcionalidade
+Você agora está trabalhando na branch nova-funcionalidade.
+4. Adicionar alterações e fazer um commit
+Tarefa: Faça alterações em um arquivo e registre essas alterações no Git.
+
+Passos:
+
+Edite um arquivo no seu projeto.
+Adicione as alterações ao staging area usando o comando git add:
+bash
+Copy code
+git add nome_do_arquivo
+Depois, faça o commit dessas alterações com uma mensagem explicativa:
+bash
+Copy code
+git commit -m "Adiciona nova funcionalidade ao projeto"
+O commit agora está registrado no histórico do Git.
+5. Puxar alterações de um repositório remoto
+Tarefa: Atualize sua cópia local com as mudanças feitas por outras pessoas no repositório remoto.
+
+Passos:
+
+Execute o comando git pull para obter as alterações mais recentes do repositório remoto:
+bash
+Copy code
+git pull origin main
+Isso vai trazer as últimas atualizações da branch main para o seu repositório local.
+6. Resolver um conflito de merge
+Tarefa: Resolva um conflito de merge quando duas branches tiverem alterações conflitantes.
+
+Passos:
+
+Suponha que você tenha feito um commit na branch feature e outra pessoa fez alterações conflitantes na branch main.
+Tente fazer o merge da branch feature para a branch main:
+bash
+Copy code
+git checkout main
+git merge feature
+O Git identificará um conflito e indicará os arquivos conflitantes.
+Abra os arquivos conflitantes, faça as alterações necessárias e remova as marcas de conflito.
+Após resolver os conflitos, adicione os arquivos alterados ao staging area:
+bash
+Copy code
+git add nome_do_arquivo
+Em seguida, finalize o merge com um novo commit:
+bash
+Copy code
+git commit -m "Resolve conflito de merge entre main e feature"
+7. Enviar alterações para um repositório remoto
+Tarefa: Envie suas alterações locais para o repositório remoto.
+
+Passos:
+
+Após fazer os commits locais, envie-os para o repositório remoto com o comando git push:
+bash
+Copy code
+git push origin nova-funcionalidade
+Isso envia as alterações da sua branch nova-funcionalidade para o repositório remoto.
+8. Criar e revisar um Pull Request (PR)
+Tarefa: Solicite a revisão do seu código antes de mesclar suas mudanças em uma branch principal (como main ou master).
+
+Passos:
+
+Após enviar a sua branch para o repositório remoto (como no comando git push), vá até a plataforma Git (como GitHub, GitLab ou Bitbucket).
+Abra um novo Pull Request (PR) para a branch que você deseja mesclar (por exemplo, da sua nova-funcionalidade para a main).
+Solicite a revisão de outros membros da equipe.
+Após a aprovação, o PR pode ser mesclado ao repositório principal.
+9. Visualizar o histórico de commits
+Tarefa: Veja o histórico de commits do seu projeto para verificar alterações passadas.
+
+Passos:
+
+Use o comando git log para exibir o histórico de commits:
+bash
+Copy code
+git log
+Isso mostrará uma lista dos commits, com informações como o hash do commit, autor, data e a mensagem de commit.
+10. Reverter um commit
+Tarefa: Reverter um commit, caso você queira desfazer uma alteração.
+
+Passos:
+
+Use o comando git revert seguido do hash do commit que deseja reverter:
+bash
+Copy code
+git revert <hash_do_commit>
+Isso cria um novo commit que desfaz as alterações do commit especificado.
