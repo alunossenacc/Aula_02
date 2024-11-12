@@ -16,5 +16,3 @@ git add .
 2. **Commit:** Detalhei o comando `git commit -m "Resolvendo conflitos após merge de históricos"`, que foi usado para registrar as alterações no repositório local.
 3. **Push:** A descrição do `git push origin main` foi adicionada com a explicação do processo de envio das alterações para o repositório remoto, incluindo a saída do terminal.
 4. **Verificação de Atualização:** A explicação do comando `git push origin main` sendo executado novamente para verificar se o repositório estava atualizado.
-
-Agora o relatório reflete todas as etapas que você seguiu, incluindo os comandos que usou e os resultados obtidos.
