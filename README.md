@@ -22,6 +22,8 @@ git status
 6. **Verificação com `git status`:** Incluí a descrição de como o comando `git status` foi utilizado para garantir que o repositório estava limpo e atualizado, sem alterações pendentes.
 # Relatório de Exercícios Git
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Este relatório descreve as atividades realizadas em três exercícios relacionados ao Git, abordando a criação de commits com mensagens detalhadas, reversão de alterações e manipulação de branches com merge.
 
 ## Exercício 1: Criando um Histórico de Commits com Mensagens Detalhadas
